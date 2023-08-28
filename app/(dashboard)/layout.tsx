@@ -1,12 +1,19 @@
 import { getUserByClerkID } from '@/utils/auth'
 import { UserButton } from '@clerk/nextjs'
 import Link from 'next/link'
+import { Metadata } from 'next'
 
 const links = [
   { href: '/', label: 'Home' },
   { href: '/journal', label: 'Journal' },
   { href: '/history', label: 'History' },
 ]
+
+export const metadata: Metadata = {
+  title: 'Mood',
+  description:
+    'This is a meta description. Welcome to Mood. Happy coding and have a nice day',
+}
 
 const DashboardLayout = async ({ children }) => {
   const user = await getUserByClerkID()
