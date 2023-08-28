@@ -1,6 +1,6 @@
 'use client'
 
-import { askQuestion } from '@/util/api'
+import { askQuestion } from '@/utils/api'
 import React, { useState } from 'react'
 
 const Question = () => {
