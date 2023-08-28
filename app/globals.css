@@ -9,3 +9,11 @@ body {
   justify-content: center !important;
   height: 100vh !important;
 }
+
+__className_20951f {
+  width: 100vh !important;
+  height: 100vw !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
